@@ -1,0 +1,4 @@
+tenant1,tenant1-compartment1,tenant1-compartment1-host1,true
+tenant1,tenant1-compartment1,tenant1-compartment1-host2,true
+tenant2,tenant2-compartment1,tenant2-compartment1-host1,true
+tenant2,tenant2-compartment1,tenant2-compartment1-host2,true

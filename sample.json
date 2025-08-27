@@ -1,0 +1,104 @@
+{
+  "Source":"EMCC_ECM",
+  "TestName":"tvmlet_psr_scaleloads_init",
+  "TestDescription":"Config Scale Loading",
+  "TestProperties": [
+    {
+      "PropertyName":"TestOwner",
+      "PropertyValue":"karthikeyan.ramanujam@oracle.com"
+    },
+    {
+      "PropertyName":"Product",
+      "PropertyValue":"EMCC"
+    },
+    {
+      "PropertyName":"Category",
+      "PropertyValue":"Config Scale Loading"
+    },
+    {
+      "PropertyName":"Module",
+      "PropertyValue":"tvmlet_psr_scaleloads"
+    }
+  ],
+  "StartTime":"13-Jun-20 21:37:11",
+  "EndTime":"14-Jun-20 00:01:02",
+  "ExecutionDescription": "Config PostLoad Init (1024)",
+  "ExecutionProperties": [
+    {
+      "PropertyName":"ExecutorName",
+      "PropertyValue":"karthikeyan.ramanujam@oracle.com"
+    },
+    {
+      "PropertyName":"Release",
+      "PropertyValue":"13.4 BP4"
+    },
+    {
+      "PropertyName":"Environment",
+      "PropertyValue":"PSR_2NODE"
+    },
+    {
+      "PropertyName":"Label",
+      "PropertyValue":"EMGC_MAIN_LINUX.X64_200610.2330"
+    },
+    {
+      "PropertyName":"LogsLocation",
+      "PropertyValue":"/net/slc09shz/scratch/KPIREPO/200614_1719"
+    }
+  ],
+  "AggregateDetails": [
+    {
+      "MetricGroup":"Config PostLoad",
+      "MetricColumn":"Database Config PostLoad",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"0.241"
+    },
+    {
+      "MetricGroup":"Config PostLoad",
+      "MetricColumn":"Database Derived Assoc",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"0.148"
+    },
+    {
+      "MetricGroup":"Config PostLoad",
+      "MetricColumn":"Database AfterLoad (System Creation)",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"0.375"
+    },
+    {
+      "MetricGroup":"Config PostLoad",
+      "MetricColumn":"Actual Time to Complete PostLoad",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"1.04262601876259"
+    },
+    {
+      "MetricGroup":"CPU Utilization",
+      "MetricColumn":"OMS Java Process CPU Usage (%)",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"36.3834101382488"
+    },
+    {
+      "MetricGroup":"CPU Utilization",
+      "MetricColumn":"Repository CPU Usage (%)",
+      "MetricName":"NA",
+      "TargetName":"NA",
+      "KeyPart":"NA;NA;NA;NA;NA;NA;NA",
+      "AggregateType":"Avg",
+      "AggregateValue":"26.4528436018957"
+    }
+  ]
+}
