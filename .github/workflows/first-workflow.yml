@@ -14,3 +14,5 @@ jobs:
               run: uname -a
             - name: Disk Free
               run: df -h
+            - name: list repo files
+              run: ls -la
