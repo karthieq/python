@@ -8,6 +8,7 @@ jobs:
         steps:
             - name: Greeting
               run: echo "Hello!!!"
-            - name: os name
+            - name: OS Name
               run: uname -n
-
+            - name: Disk Free
+              run: df -h
